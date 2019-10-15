@@ -3,7 +3,7 @@
 export LEIN_ROOT=yes
 
 APP_NAME='spring-server'
-CONTAINER="531471861132.dkr.ecr.ap-northeast-2.amazonaws.com/$APP_NAME"
+CONTAINER="$ECR_PATH/$APP_NAME"
 
 export ANSIBLE_HOST_KEY_CHECKING=false
 
